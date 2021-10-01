@@ -1,0 +1,18 @@
+header
+{
+    background-image: url('./navigation\ background.jpg');
+   text-align: center;
+   opacity: 0.5;
+}
+a
+{
+  font-size: x-large;
+}
+[href]:hover
+{
+  color:chocolate;
+}
+body{
+    background-image: url('./background\ navigation.jpg');
+    background-repeat:repeat;
+}
