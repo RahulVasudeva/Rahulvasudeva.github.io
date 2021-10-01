@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Basic HTML Tags</title>
+    <style>/*Internal Css used for this <style> tag is used within the head tag*/
+      .subhead  /*Here classes are used to call the css. a class, id and attribute cn be used to write css. Same Classes can be on multiple tags so they are more versitile whereas id only belongs to a particular
+      tag. calsses are called using (.classname) and id is called using (#idname) whereas atributes are called using ([attributename]).*/
+      { 
+         color:grey;
+         font-family: Comic Sans MS;
+         
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h3{
+        font-family: sans-serif;
+      }
+      #head{
+        font-family: sans-serif;/*Here id is used to call the css. a class, id and attribute cn be used to write css. Same Classes can be on multiple tags so they are more versitile whereas id only belongs to a particular
+      tag. calsses are called using (.classname) and id is called using (#idname) whereas atributes are called using ([attributename]).*/
+      }
+      .subhead1
+      {
+        text-decoration: underline;
+      }
+      footer
+      {
+        font-size: small;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: cadetblue; font-family: Comic Sans MS;">Basic HTML Tags</h1> <!--Inline Css used here which is used by useing style attrubute in any tag-->
+        <p><h3>These are the tags that are the most essential to create a basic HTML page.</h3></p>
+    </header>
+    <main>
+        <section>
+            <article>
+              <h2 class="subhead subhead1">Basic writing and dividing tags</h2><!--As you can see here one tag has two classes subhead and subhead1-->
+                <ol>
+                  <li>
+                    <h3>Heading tags (<<span>h1</span>> to <<span>h6</span>>):</h3>
+                    <p>
+                    This tag is used to make headings like:
+                    </p>
+                    <h2>Any heading for a topic (this is written in h2)</h2>
+                    <p>It ranges from <<span>h1</span>> to <<span>h6</span>> with "h1" being the largest and "h6" being the smallest</p>
+                    <h4>Syntax:</h4>
+                    <p><<span>h1</span>>any heading<<span>/h1</span>></p>
+                  </li>
+                    <br>
+                  <li>
+                    <h3>Divide (<<span>div</span>>) Tag</h3>
+                    <p>This tag is used to divide the HTMl codes in different parts for easy use and comprehension.</p>
+                    <h4>Syntax:</h4>
+                    <p><<span>div</span>>one part of code<<span>/div</span>></p>
+                  </li>
+                  <br>
+                  <li>
+                    <h3>Paragraph (<<span>p</span>>) Tag</h3>
+                    <p>This tag is used to contain a block of plain text(this text is being written using the <<span>p</span>> tag check the code to understand).</p>
+                    <h4>Syntax:</h4>
+                    <p><<span>p</span>>block of text here<<span>/p</span>></p>
+                  </li>
+                  <li>
+                      <h3>span(<<span>span</span>>(span was used to write like this)) Tag</h3>
+                      <p>They are used to seperate shory pieces of content that are on the same line as the other content, similar to div but 
+                         only used for short piece of content.
+                      </p>
+                      <h4>Syntax:</h4>
+                      <p><<span>span</span>>shory piece of content<<span>/span</span>></p>
+                  </li>     
+                  <li>
+                    <h2>xmp tag (<<span>xmp</span>>)</h2>
+                    <p>This tag is used to print everything that comes within it, it can also print html codes. For eg:</p>
+                    <xmp>
+                      <html>
+                        <head>
+                        </head>
+                        <body>
+                          <img src=""/>
+                        </body>
+                      </html>
+                    </xmp>
+                  </li>             
+                </ol>
+                <h2 class="subhead">Styling tags for HTML</h2> <!--If you check the webpage you can see that this h2 doesn't have a underline as it is declared for the class subhead1 and this h2 doesn't have it 
+                for it to have a  underline we have to ass subhead1 as a class as done in the previous h2 tag-->
+                <ol>
+                  <li>
+                    <h3>The <<span>em</span>> tag</h3>
+                    <p><<span>em</span>> tag is used to enhance a text which usually means to convert it to italic. Example:</p>
+                    <em>This text is now italic because of <<span>em</span>> tag.</em>                    
+                  </li>
+                  <li>
+                    <h2>The <<span>Strong</span>> Tag</h2>
+                    <p>This tag is used to make a text strong which is bolder in most cases. Example:</p>
+                    <strong>The text here is bold due to <<span>Strong</span>> tag.</strong>
+
+                  </li>
+                  <li>
+                    <h3>The break <<span>br</span>> tag</h3>
+                    <p>This tag is used to break a line which means to move to the next line. Its a open tag andd doesn't need a <<span>/br</span>>. Example:</p>
+                    <p>The text written here will move to the next line like this<br> as you can see its on the next line now while being on the same <<span>p</span>> tag</p>
+                  </li>
+                  <li>
+                     <h3>Unordered and Ordered lists (<<span>ul</span>> and <<span>ol</span>>)</h3>
+                     <p>The <<span>ul</span>> and <<span>ol</span>> are used to create lists <<span>ul</span>> creates a list with bullet points and  <<span>ol</span>> creates a list with numeriv values.
+                    Both use <<span>li</span>> to define the list values.</p>
+                     <ul>
+                       <div>
+                         <li>
+                            <h4 id="head">Synatx and result for <<span>ul</span>>:</h4>
+                              <p>Syntax:
+                                <xmp>
+                                  <ul>
+                                    <li>This is the unordered list item.</li>
+                                    <li>It can be anything like</li>
+                                    <li>mangoes</li>
+                                    <li>oranges</li>
+                                  </ul>
+                                </xmp>
+                       Result:
+                                <ul>
+                                  <li>This is the list item.</li>
+                                  <li>It can be anything like</li>
+                                  <li>mangoes</li>
+                                  <li>oranges</li>
+                                </ul>
+                              </p>
+                         </li>
+                       </div>
+                       <div>
+                         <li>
+                            <h4>Syntax and result for <<span>ol</span>>:</h4><!--If you check on the webpage the css was not applied for the <h4> tag as while applying the css to the upper h4 tag it was called 
+                        using id and it is special to only one element that was the previous <h4> tag it is not aplicable here whereas class can go over multiple tags and one tag can have multiple classes as shown 
+                          above in the <h2> tag-->
+                            <p>
+                              Syntax:
+                              <xmp>
+                                <ol>
+                                  <li>This is the unordered list item.</li>
+                                  <li>It can be anything like</li>
+                                  <li>mangoes</li>
+                                  <li>oranges</li>
+                                </ol>
+                              </xmp>
+                            </p>
+                      <p>
+                         Result:
+                         <ol>
+                          <li>This is the unordered list item.</li>
+                          <li>It can be anything like</li>
+                          <li>mangoes</li>
+                          <li>oranges</li>
+                        </ol>
+                      </p></li>
+                    </div>
+                    </ul>
+                  </li>
+                </ol>
+            </article>
+        </section>
+    </main>
+    <footer>
+      <p>*Css was used to edit this page to see how it works and what classes, id's and attribute are go to the code of this webpage.</p>
+    </footer>
+</body>
+</html>
+<!--CSS can select HTML elements by type, class, ID, and attribute.
+All elements can be selected using the universal selector.
+An element can have different states using the pseudo-class selector.
+Multiple CSS classes can be applied to one HTML element.
+Classes can be reusable, while IDs can only be used once.
+IDs are more specific than classes, and classes are more specific than type. That means IDs will override any styles from a class, and classes will override any styles from a type selector.
+Multiple selectors can be chained together to select an element. This raises the specificity but can be necessary.
+Nested elements can be selected by separating selectors with a space.
+Multiple unrelated selectors can receive the same styles by separating the selector names with commas.-->
